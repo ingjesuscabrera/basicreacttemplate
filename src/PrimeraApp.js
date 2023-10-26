@@ -1,7 +1,19 @@
 import React from 'react';
+import { Fragment } from 'react';
 
 const PrimeraApp = () => {
-    return <h1>Primera App usando React</h1>;
+
+    const saludo = 'Hola es un saludo';
+
+    return (
+        <>
+            <h1>{ saludo }</h1>
+            <p>Mi primera aplicacion</p>
+        </>
+        
+
+    ) ;
   };
   
   export default PrimeraApp;
+  
